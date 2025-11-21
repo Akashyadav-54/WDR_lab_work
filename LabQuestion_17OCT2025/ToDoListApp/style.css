@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 25px;
+}
+
+/* Input section */
+.input-container {
+    margin-bottom: 25px;
+}
+
+input {
+    width: 350px;
+    height: 38px;
+    font-size: 16px;
+    border: 2px solid green;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+#addBtn {
+    background: pink;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: 2px solid rgb(255, 120, 150);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+/* Task box */
+.task-box {
+    width: 650px;
+    border: 2px solid #3f51b5;
+    padding: 15px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-box span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a237e;
+}
+
+/* Task buttons */
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.complete-btn {
+    background: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.complete-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px
+}
+
