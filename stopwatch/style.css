@@ -1,0 +1,40 @@
+body {
+    background: #222;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.container {
+    margin-top: 120px;
+}
+
+#display {
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.buttons button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.buttons button:nth-child(1) {
+    background: #4CAF50;
+}
+
+.buttons button:nth-child(2) {
+    background: #f44336;
+}
+
+.buttons button:nth-child(3) {
+    background: #2196F3;
+}
+
+button:hover {
+    opacity: 0.8;
+}
